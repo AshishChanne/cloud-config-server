@@ -7,13 +7,6 @@ eureka:
   instance:
     hostname: localhost
     
-microservice:
- book-service:
-  endpoints:
-   endpoint:
-    uri: http://BOOK-SERVICE/book/getBook
-          
+microservice:     
  order-service:
-  endpoints:
-   endpoint:
     uri: http://ORDER-SERVICE/order/getOrder
