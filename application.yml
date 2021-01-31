@@ -8,5 +8,5 @@ eureka:
     hostname: localhost
     
 microservice:     
- order-service:
-    uri: http://ORDER-SERVICE/order/getOrder
+ book-service:
+    uri: http://BOOK-SERVICE/book/getBook
