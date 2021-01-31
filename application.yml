@@ -8,12 +8,12 @@ eureka:
     hostname: localhost
     
 microservice:
-   book-service:
-      endpoints:
-        endpoint:
-          uri: http://BOOK-SERVICE/book/getBook
+ book-service:
+  endpoints:
+   endpoint:
+    uri: http://BOOK-SERVICE/book/getBook
           
-   order-service:
-      endpoints:
-        endpoint:
-          uri: http://ORDER-SERVICE/order/getOrder
+ order-service:
+  endpoints:
+   endpoint:
+    uri: http://ORDER-SERVICE/order/getOrder
